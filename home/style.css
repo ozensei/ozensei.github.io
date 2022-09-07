@@ -2,6 +2,9 @@ p {
   text-align: left;
   text-indent: 60px;
 }
+.xxx {
+  text-align: center;
+}
 
 h1{
   color: #fcba03;
@@ -9,16 +12,41 @@ h1{
 
 h2{
   color: #fcba03;
+   text-align: center;
+}
+
+h3{
+  color: #fcba03;
 }
 
 body{
   background: url(bg.png) center/cover no-repeat;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Arial", Times, serif;
   color: white;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 10%;
   margin-bottom: 10%;
+}
+
+.simbahan{
+  float: right;
+  padding-left: 15px;
+}
+
+.asiong{
+  float: left;
+  padding-right: 20px;
+}
+
+.gloc{
+  float: right;
+  padding-left: 20px;
+}
+
+.santo{
+  float: right;
+  padding-left: 20px;
 }
 
 .container{
